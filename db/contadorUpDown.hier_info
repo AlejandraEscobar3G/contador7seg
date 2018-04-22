@@ -1,0 +1,24 @@
+|contador7seg
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+clk => Q[2]~reg0.CLK
+clk => Q[3]~reg0.CLK
+rst => CONTADOR.IN1
+rst => CONTADOR.IN1
+updown => Q.OUTPUTSELECT
+updown => Q.OUTPUTSELECT
+updown => Q.OUTPUTSELECT
+updown => Q.OUTPUTSELECT
+Q[0] <> Q[0]~reg0
+Q[1] <> Q[1]~reg0
+Q[2] <> Q[2]~reg0
+Q[3] <> Q[3]~reg0
+F[0] <> F[0]
+F[1] <> F[1]
+F[2] <> F[2]
+F[3] <> F[3]
+F[4] <> F[4]
+F[5] <> F[5]
+F[6] <> F[6]
+
+
